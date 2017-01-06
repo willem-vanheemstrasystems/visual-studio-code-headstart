@@ -89,7 +89,7 @@ You should see all files (updated) on the Github for the repository (e.g. https:
 
 ##Config file 
 
-If you examine your .git/config file you will see the following, as the remote repository has been added:
+If you now examine your .git/config file you will see the following, as the remote repository has been added:
 
 ```javascript
 [core]
@@ -107,6 +107,8 @@ If you examine your .git/config file you will see the following, as the remote r
 	merge = refs/heads/master
 ```
 
+You can now switch back to Git in Visual Studio Code and perform git operations without using the command line. 
+
 ##Git Icon
 
 The Git icon on the left will always indicate an overview of how many changes you currently have in your repository. Clicking it will show you the details of your current repository changes: unstaged, staged and unresolved conflicting merge changes.
@@ -116,5 +118,3 @@ Clicking each item will show you in detail the textual changes within each file.
 ##Git Status
 
 You can also find indicators of the status of your repository in the bottom left corner of VS Code: the current branch, dirty indicators and the number of incoming and outgoing commits of the current branch. You can checkout any branch in your repository by clicking that status indicator and selecting the Git reference from the list.
-
-##
