@@ -107,7 +107,7 @@ If you now examine your .git/config file you will see the following, as the remo
 	merge = refs/heads/master
 ```
 
-You can now switch back to Git in Visual Studio Code and perform git operations without using the command line. 
+You can now switch back to Git in Visual Studio Code and perform git operations without using the command line, using the More menu ('...').
 
 ##Git Icon
 
