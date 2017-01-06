@@ -77,7 +77,7 @@ git pull origin master
 
 You can now decide to delete the content that has been pulled, or leave it, by selecting the newly pulled files and folders and deleting them or not. 
 
-Should changes have occured (such as the deletion of previous files, do a commit by typing a message in the textbox of the Git menu followed by clicking the 'V' icon. All changes should disappear from the list.
+Should changes have occured (such as the deletion of previous files), do a commit by typing a message in the textbox of the Git menu followed by clicking the 'V' icon. All changes should disappear from the list.
 
 Now push to the remote branch (here: master).
 
