@@ -60,7 +60,7 @@ Copy the path to the .git for later use by selecting the "Clone or download" but
 https://github.com/willem-vanheemstrasystems/scotch-ng-router.git
 ```
 
-##Creating the remote repository
+##Adding the remote repository
 
 Using the (internal) terminal, navigate to the location where your Visual Studio Code project is (e.g. scotch-ng-router) and type the following two commands (replace my .git project with yours):
 
@@ -75,7 +75,7 @@ NOTE: If the remote repository's branch (here: master) is not empty from the sta
 git pull origin master
 ```
 
-You can now decide to delete the content that has been pulled, or leave it. 
+You can now decide to delete the content that has been pulled, or leave it, by selecting the newly pulled files and folders and deleting them or not. 
 
 Should changes have occured (such as the deletion of previous files, do a commit by typing a message in the textbox of the Git menu followed by clicking the 'V' icon. All changes should disappear from the list.
 
