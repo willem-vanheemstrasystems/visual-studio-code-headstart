@@ -118,3 +118,7 @@ Clicking each item will show you in detail the textual changes within each file.
 ##Git Status
 
 You can also find indicators of the status of your repository in the bottom left corner of VS Code: the current branch, dirty indicators and the number of incoming and outgoing commits of the current branch. You can checkout any branch in your repository by clicking that status indicator and selecting the Git reference from the list.
+
+##Git Commands
+
+See for detailed instructions as to how to use Git commands https://code.visualstudio.com/Docs/editor/versioncontrol
