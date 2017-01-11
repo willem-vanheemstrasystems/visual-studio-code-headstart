@@ -87,6 +87,34 @@ git push -u origin master
 
 You should see all files (updated) on the Github for the repository (e.g. https://github.com/willem-vanheemstrasystems/scotch-ng-router). Removed files and folders should no longer show.
 
+To make changes in the develop branch to become part of the master branch, do the following.
+
+```javascript
+git checkout master
+git pull
+git checkout develop
+git pull
+git rebase -i master
+git checkout master
+git merge develop
+```
+
+Yeap, when you have uppers done, the develop branch's all commits will be moved onto the head of master branch. The major benefit of rebasing is that you get a liner and much cleaner project history.
+
+The only thing you need to ***avoid*** is: ***never use rebase on public branch***, like master branch.
+
+like following operation:
+
+```javascript
+git checkout master
+git rebase -i develop
+never do these operations.
+```
+
+Details for https://www.atlassian.com/git/tutorials/merging-vs-rebasing/the-golden-rule-of-rebasing
+
+
+
 ##Config file 
 
 If you now examine your .git/config file you will see the following, as the remote repository has been added:
